@@ -51,6 +51,15 @@
             background: #ffecec;
             transform: scale(1.04);
         }
+        .qr-section {
+            margin-top: 25px;
+        }
+        .qr-section img {
+            width: 120px;
+            margin: 10px;
+            border-radius: 15px;
+            border: 2px solid white;
+        }
     </style>
 </head>
 <body>
@@ -66,12 +75,12 @@
         <p>Thank you for visiting!  
            Support our small business by following & reviewing us.</p>
 
-        <!-- ⭐ CORRECT GOOGLE REVIEW DIRECT LINK -->
+        <!-- ⭐ GOOGLE REVIEW DIRECT LINK -->
         <a class="btn" href="https://g.page/r/CVqNOBV5D-1VEBM/review" target="_blank" rel="noopener noreferrer">
             ⭐ Write Google Review
         </a>
 
-        <!-- 📍 CORRECT GOOGLE MAP LOCATION LINK -->
+        <!-- 📍 GOOGLE MAP LOCATION LINK -->
         <a class="btn" href="https://www.google.com/maps/place/?q=place_id:ChIJM3Gq7EP7qzsRWo04FXkP7VU" 
            target="_blank" rel="noopener noreferrer">
             📍 View on Google Maps
@@ -89,6 +98,19 @@
         <a class="btn" href="https://chat.whatsapp.com/GCzKDXUxJW7Ghcqe70uYRa" target="_blank" rel="noopener noreferrer">
             💬 Join WhatsApp Group
         </a>
+
+        <!-- QR CODE SECTION (OPTIONAL) -->
+        <div class="qr-section">
+            <p>Scan QR to open directly:</p>
+            <!-- Google Review QR -->
+            <a href="https://g.page/r/CVqNOBV5D-1VEBM/review" target="_blank" rel="noopener noreferrer">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://g.page/r/CVqNOBV5D-1VEBM/review" alt="Google Review QR">
+            </a>
+            <!-- Google Maps QR -->
+            <a href="https://www.google.com/maps/place/?q=place_id:ChIJM3Gq7EP7qzsRWo04FXkP7VU" target="_blank" rel="noopener noreferrer">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://www.google.com/maps/place/?q=place_id:ChIJM3Gq7EP7qzsRWo04FXkP7VU" alt="Google Maps QR">
+            </a>
+        </div>
 
     </div>
 
